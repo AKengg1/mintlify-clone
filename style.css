@@ -4,9 +4,10 @@
 }
 
 :root {
-    --bg: #18E299;
+    --bg: #067a51;
     --bg1: #90ECC5;
     --font: #08090B;
+    --txt-font:#ffffff;
 }
 
 body {
@@ -59,7 +60,8 @@ nav ul li {
     list-style: none;
 }
 
-nav button {
+nav button,
+.start {
     border: none;
     padding: 7px 14px;
     border-radius: 20px;
@@ -69,7 +71,7 @@ nav button {
 
 .salebtn {
     background-color: #45464768;
-    color: #ffffff
+    color: var(--txt-font);
 }
 
 nav ul li:hover {
@@ -83,12 +85,13 @@ nav ul li:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 50vh;
 }
 
 .intro h1 {
-    width: 400px;
+    width: 450px;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .intro h3 {
@@ -96,4 +99,26 @@ nav ul li:hover {
     text-align: center;
     color: #ffffffd4;
     font-weight: 100;
+}
+.docs{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+     border: none;
+    padding: 5px 8px 5px 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #4546478b;
+    cursor: pointer;
+    color: var(--txt-font);
+}
+.new{
+    padding: 1px 6px;
+    background-color: var(--bg);
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.btn:hover{
+    background-color: #4546474a;
 }
