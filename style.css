@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #18E299;
+    --bg1: #90ECC5;
+    --font: #08090B;
+}
+
+body {
+    font-family: Arial;
+    background-color: var(--font);
+    color: #ffffff;
+}
+
+.hero {
+    background-image: url("/mintlify-imgs/bg-dark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.child {
+    padding: 10px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    background: transparent;
+    transition: all 0.3s ease;
+    z-index: 100;
+    height: 100%;
+}
+
+.logo {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+nav button {
+    border: none;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.salebtn {
+    background-color: #45464768;
+    color: #ffffff
+}
+
+nav ul li:hover {
+    background-color: #4546474f;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h1 {
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.intro h3 {
+    width: 400px;
+    text-align: center;
+    color: #ffffffd4;
+    font-weight: 100;
+}
