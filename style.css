@@ -434,7 +434,9 @@ h6 {
 .arrow i {
     font-size: 25px;
 }
-
+.arrow i:hover{
+    opacity: 0.6;
+}
 .cta1 {
     border: none;
     padding: 10px 20px;
@@ -534,63 +536,75 @@ h6 {
     padding-top: 10px;
     font-size: 13px;
 }
-.everything ul{
+
+.everything ul {
     border-top: 0.1px solid #aca9a64f;
     width: 200px;
 }
+
 .everything li {
     list-style: none;
     padding: 6px;
     /* width: 100px; */
     margin: 25px;
 }
-footer .cont:hover{
+
+footer .cont:hover {
     font-size: 13px;
-     background-color: #4546471f;
+    background-color: #4546471f;
     border-radius: 30px;
     cursor: pointer;
     padding: 6px;
 }
+
 .grade {
     display: flex;
     align-items: center;
- margin: 10px;
+    margin: 10px;
     padding: 80px;
     padding-top: 0px;
     border-top: 0.1px solid #aca9a64f;
 }
-.grade h4{
+
+.grade h4 {
     width: 290px;
 }
-.system{
+
+.system {
     background: none;
     border: none;
     background-color: #dbdbdb;
     padding: 6px;
     border-radius: 20px;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-between;
-    align-items: center;padding:0px 120px 60px 120px;
+    align-items: center;
+    padding: 0px 120px 60px 120px;
 }
+
 .toggle {
     background-color: #d7d3d3;
     color: var(--font);
     padding: 0.3px;
     border-radius: 20px;
 }
+
 .toggle button {
     padding: 2px 6px;
     background: none;
     border: none;
     cursor: pointer;
 }
+
 .dark {
     background-color: #ebe9e9;
     border-radius: 40px;
     padding: 6px 12px;
 }
-.copyright h4{
+
+.copyright h4 {
     width: 150px;
 }
