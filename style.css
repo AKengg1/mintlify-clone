@@ -362,24 +362,31 @@ h6 {
     gap: 23px;
     padding-bottom: 40px;
 }
-.text h2{
-font-size: 35px;
+
+.text h2,
+.demo h2 {
+    font-size: 35px;
 }
-.text h5{
+
+.text h5,
+.demo h4 {
     color: #504f4e;
     font-weight: 100;
     width: 570px;
     font-size: 16px;
 }
-.text h6{
+
+.text h6 {
     color: var(--bg);
 }
-.user{
+
+.user {
     width: 100%;
 
 }
+
 .user ul {
-   display: flex;
+    display: flex;
     gap: 20px;
     overflow-x: auto;
     width: 100%;
@@ -388,16 +395,20 @@ font-size: 35px;
 }
 
 .user ul li {
-    flex: 0 0 400px;   /* FORCE width */
+    flex: 0 0 400px;
+    /* FORCE width */
     list-style: none;
     color: #232323;
 }
-.pad{
+
+.pad {
     padding-left: 180px;
 }
-.padr{
+
+.padr {
     padding-right: 180px;
 }
+
 .user ul li img {
     padding-bottom: 10px;
 }
@@ -411,13 +422,100 @@ font-size: 35px;
     font-size: 15px;
 }
 
-.green:hover{
+.green:hover {
     color: var(--bg);
 }
-.arrow{
+
+.arrow {
     width: 80px;
-    margin: 40px 600px;
+    margin: 40px 550px;
 }
-.arrow i{
+
+.arrow i {
     font-size: 25px;
+}
+
+.cta1 {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--font);
+    color: var(--txt-font);
+}
+
+.cta2 {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--txt-font);
+    color: var(--font);
+    border: 0.1px solid #6e6b69;
+}
+
+.cta2:hover {
+    background-color: #4546474f;
+
+}
+
+.demo {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 23px;
+    padding-bottom: 40px;
+}
+
+.demo h2 {
+    width: 500px;
+}
+
+.demo h4 {
+    padding-bottom: 40px;
+}
+
+.one,
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    height: 250px;
+}
+
+.begin {
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: 250px;
+}
+
+.one {
+    border-right: 0.1px solid #aca9a64f;
+}
+
+.footbar {
+    border-top: 0.1px solid #aca9a64f;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+.social i {
+    opacity: 0.6;
+}
+
+.social i:hover {
+    opacity: 1;
 }
