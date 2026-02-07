@@ -611,5 +611,7 @@ footer .cont:hover {
 }
 
 .copyright h4 {
+    color: #504f4e;
     width: 150px;
+    font-size: 15px
 }
